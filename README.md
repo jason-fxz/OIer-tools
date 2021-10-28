@@ -1,3 +1,6 @@
-# chk
-A simple tool for OIer to check their code with std
-一个简单的对拍程序
+# OIer tools
+
+Some use~~ful~~less tools for OIers  
+For some reasons, only made for NOI linux (ubuntu)
+
+- [Compile & Run](./Compile-Run/README.md)
