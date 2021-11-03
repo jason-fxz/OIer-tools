@@ -4,6 +4,18 @@ The Shell Script [R.sh](./R.sh)
 
 ## Usage
 
+```bash
+./R.sh <FileBaseName> [FlagsType]
+```
+
+For *FlagsType* :
+
+- `debug` (default)
+- `O2`
+- `O3`
+- `Ofast`
+- `empty`
+
 For example, your file is `hello world.cpp`, use :
 
 ```bash
@@ -12,7 +24,7 @@ For example, your file is `hello world.cpp`, use :
 
 It compiles `hello world.cpp` into `hello world.run`
 
-It checks whether the file has been modified, if not, run without compiling (file `.hello world.bak` will be created to check modification)
+It checks whether the file has been modified, if not, run without compiling (file `.hello world.cpp.bak` will be created to check modification)
 
 ## More
 
