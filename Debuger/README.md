@@ -17,7 +17,8 @@ HPP file: **[debug.hpp](./debug.hpp)**
 
 - `namespace logger` colorful log output
   - `SetFile(file)` to set output file, default stderr
-  - `Log(content),Err(content),Warn(content)`  
+  - `Log(content),Err(content),Warn(content)` for example: (**But you can't see any color in Github**)
+    
     <pre><font color="green"><b>LOG: </b></font>It&apos;s log.
     <font color="red"><b>ERR: </b></font>It&apos;s Error.
     <font color="orange"><b>WARN: </b></font>It&apos;s Warn.
@@ -28,7 +29,7 @@ HPP file: **[debug.hpp](./debug.hpp)**
 
 - `string fmt(string format, Args ...args)` C like format function
 
-- `Assert(expr)` like C assert(), but with color. for example:  
+- `Assert(expr)` like C assert(), but with color. for example: (**But you can't see any color in Github**)
   <pre><font color="red"><b>ERR: </b></font><font color="green">tree.cpp</font>: <font color="blue">44</font>: <font color="orange">main</font>:  Assertion `<font color="cyan">n != 0</font>` failed.</pre>
 
 - `Seearr(a, l, r)` show Array a[l, r], **return a string**
